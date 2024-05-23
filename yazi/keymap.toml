@@ -1,0 +1,4 @@
+[manager]
+prepend_keymap = [
+	{ on = [ "<C-b>" ], run = ["shell --block 'swaymsg output eDP-1 bg $0 fill'"], desc = "Just for test!" },
+]
