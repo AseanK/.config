@@ -4,12 +4,11 @@
     "height": 24, // Waybar height
     // "width": 1366, // Waybar width
     // Choose the order of the modules
-    "modules-left": ["sway/workspaces", "sway/mode", "custom/spotify"],
-    "modules-center": ["sway/window"],
-    "modules-right": ["pulseaudio", "network", "cpu", "memory", "battery", "tray", "clock"],
+    "modules-left": ["sway/workspaces", "custom/pacman", "sway/window", "sway/mode"],
+    "modules-center": ["clock"],
+    "modules-right": ["cpu", "custom/separator", "memory", "custom/separator", "temperature", "pulseaudio", "custom/separator", "backlight", "network", "custom/keyboard", "keyboard-state", "battery"],
     "sway/workspaces": {
         "disable-scroll": true,
-        "all-outputs": false,
         "format": "{icon}",
         "format-icons": {
             "1:web": "",
@@ -20,24 +19,98 @@
             "6:docs": "",
             "urgent": "",
             "focused": "",
-            "default": ""
-        }
+            "default": ""
+        },
+		"persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+        },
     },
+	"custom/separator": {
+		"format": ""
+	},
+	"custom/pacman": {
+		"format": " {}",
+        "interval": 3600,
+        "exec": "checkupdates | wc -l",
+        "exec-if": "exit 0",
+        "on-click": "foot sh -c 'sudo pacman -Syu; echo Done - Press enter to exit; read'; pkill -SIGRTMIN+8 waybar",
+        "signal": 8,
+        "tooltip": false,
+		"cursor": false,
+	},
     "sway/mode": {
-        "format": "<span style=\"italic\">{}</span>"
+        "format": "<span font-weight='bold'>{}</span>",
+		"min-length": 15,
+		"max-length": 15,
     },
-    "tray": {
-        // "icon-size": 21,
-        "spacing": 10
+	"sway/window": {
+		"max-length": 30,
+		"min-length": 30,
+		"justify": "center",
+	},
+    "custom/keyboard": {
+		"interval": 1,
+		"exec": "~/.config/waybar/scripts/keyboard-layout.sh",
+		"on-click": "~/.config/waybar/scripts/switch-layout.sh", 
+		"tooltip": false,
+		"cursor": false,
     },
+	"keyboard-state": {
+		"capslock": true,
+		"format": " {icon}",
+		"format-icons": {
+			"locked": "󰌾",
+			"unlocked": "󰌿",
+		}
+	},
+	"temperature": {
+		"critical-threshold": 75,
+		"format": "{icon}{temperatureC}°C",
+		"format-icons": ["", "", "", ""],
+		"format-alt": "{icon}{temperatureF}°F",
+		"tooltip": false,
+		"cursor": false,
+		"interval": 60,
+	},
+	"backlight": {
+		"format": "{icon} {percent}%",
+		"format-icons": ["󱩏", "󱩑", "󱩓", "󱩕", "󰛨"],
+		"tooltip": false,
+	},
     "clock": {
-        "format-alt": "{:%Y-%m-%d}"
+		"format": "{:%a, %b %d, %H:%M %Z}",
+		"tooltip-format": "<span font-weight=\"bold\">{calendar}</span>",
+		"cursor": false,
+		"calendar": {
+			"mode": "month",
+			"format": {
+				"months": "<span color='#e06c75'><b>{}</b></span>",
+				"days": "<span color='#98c379'><b>{}</b></span>",
+				"weekdays": "<span color='#e5c07b'><b>{}</b></span>",
+				"today": "<span color='#61afef'><b>{}</b></span>",
+			},
+		},
+		"timezones": [
+			"America/Los_Angeles",
+			"America/New_York",
+			"Asia/Seoul"
+		],
+		"actions": {
+			"on-scroll-up": "tz_up",
+			"on-scroll-down": "tz_down",
+			"on-click-right": "shift_up",
+			"on-click": "shift_down",
+			"on-click-middle": "shift_reset",
+		},
     },
     "cpu": {
         "format": " {usage}%"
     },
     "memory": {
-        "format": " {}%"
+        "format": " {}%"
     },
     "battery": {
         "bat": "BAT1",
@@ -46,6 +119,7 @@
             "warning": 20,
             "critical": 15
         },
+		"interval": 1,
         "format": "{icon} {capacity}%",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
@@ -53,14 +127,16 @@
     },
     "network": {
         // "interface": "wlp2s0", // (Optional) To force the use of this interface
-        "format-wifi": " {essid}",
-        "format-ethernet": " {ifname}",
-        "format-disconnected": "⚠ Disconnected"
+        "format-wifi": "󰖩 {essid}",
+        "format-ethernet": " {ifname}",
+        "format-disconnected": "󱛅 Disconnected",
+		"tooltip-format": "<span>󱚸 {signalStrength}% {ifname}\n󱦂 {ipaddr}:{cidr}\n󱚺 {bandwidthUpBits}\n󱚶 {bandwidthDownBits}</span>",
+		"tooltip-format-disconnected": "",
     },
     "pulseaudio": {
         //"scroll-step": 1,
         "format": "{icon} {volume}%",
-        "format-bluetooth": "% {volume} {icon}",
+        "format-bluetooth": "{icon} <span color='#61afef'></span>{volume}%",
         "format-muted": "",
         "format-icons": {
             "headphones": "",

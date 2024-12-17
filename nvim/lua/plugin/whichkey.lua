@@ -22,15 +22,12 @@ function M.config()
 				g = false,
 			},
 		},
-		motions = {
-			count = true,
-		},
-		window = {
-			border = "none",
-			position = "bottom",
-			margin = { 10, 10, 2, 10 },
-			padding = { 2, 2, 2, 2 },
-			winblend = 0,
+		win = {
+			-- don't allow the popup to overlap with the cursor
+			no_overlap = true,
+			padding = { 2, 2 }, -- extra window padding [top/bottom, right/left]
+			title = false,
+			zindex = 1000,
 		},
 		layout = {
 			spacing = 3,
@@ -38,7 +35,6 @@ function M.config()
 		},
 		show_help = false,
 		show_keys = false,
-		triggers = "auto",
 	})
 end
 

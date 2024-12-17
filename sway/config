@@ -20,10 +20,16 @@ set $right l
 set $term foot
 
 # set $menu dmenu_path | wmenu swaymsg exec --
-output eDP-1 mode 2256x1504 pos 2256 0 bg $HOME/Downloads/bg.jpg fill scale 1.75
+output eDP-1 mode 2256x1504 pos 2256 0 bg $HOME/Downloads/wallpaperflare.com_wallpaper.jpg fill scale 1.75
+
+# set default floating view
+# for_window [class="(DEBUG)"] floating enable
 
 # clipboard
 exec wl-paste -t text --watch clipman store --no-persist
+
+#Keyboard layout
+exec fcitx5 &
 
 # keymap
 bindsym $mod+g exec firefox
@@ -31,11 +37,13 @@ bindsym $mod+Return exec $term
 bindsym $mod+Space exec wofi --show=drun
 bindsym $mod+Escape kill
 bindsym $mod+Shift+c reload
+bindsym $mod+Shift+Return exec work-mode.sh
 
 bindsym $mod+$left focus left
 bindsym $mod+$down focus down 
 bindsym $mod+$up focus up
 bindsym $mod+$right focus right
+bindsym $mod+t focus mode_toggle
 
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down 
@@ -91,14 +99,14 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-mode "exit: [l]ogout, [r]eboot, [s]hutdown" {
+mode "󰗽l r s" {
 	bindsym l exec sway exit
 	bindsym r exec reboot
 	bindsym s exec poweroff
 	bindsym Escape mode "default"
 	bindsym Return mode "default"
 }
-bindsym $mod+Shift+e mode "exit: [l]ogout, [r]eboot, [s]hutdown"
+bindsym $mod+Shift+e mode "󰗽l r s"
 
 # Switch the current container between different layout styles
 bindsym $mod+e layout toggle split
@@ -123,7 +131,7 @@ bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
 
 # Screen backlight
-bindsym XF86MonBrightnessUp exec ~/scripts/backlight.sh up 10
+bindsym XF86MonBrightnessUp exec backlight.sh up 10
 bindsym XF86MonBrightnessDown exec backlight.sh down 10
 
 include @sysconfdir@/sway/config.d/*

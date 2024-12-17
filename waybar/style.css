@@ -2,7 +2,7 @@
     border: none;
     border-radius: 0;
     font-family: "Hack Nerd Font";
-    font-size: 13px;
+    font-size: 14px;
     min-height: 0;
 }
 
@@ -11,40 +11,71 @@ window#waybar {
     color: #98c379;
 }
 
+#custom-pacman {
+    padding: 0 6px;
+    border-right: 1px solid #98c379;
+}
+
 #window {
     font-weight: bold;
+    padding-left: 30px;
 }
-/*
+
 #workspaces {
-    padding: 0 5px;
+    padding: 0 6px;
+    border-right: 1px solid #98c379;
 }
-*/
 
 #workspaces button {
-    padding: 0 5px;
+    padding: 0 2px;
     background: transparent;
-    color: white;
+    color: #98c379;
     border-top: 2px solid transparent;
 }
 
 #workspaces button.focused {
-    color: #98c379;
+    color: #61afef;
 }
 
 #mode {
-    background: #64727D;
+    color: #e06c75;
+    border: 1px solid #e06c75;
 }
 
-#clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #tray, #mode {
-    padding: 0 3px;
-    margin: 0 2px;
+tooltip {
+    background-color: rgba(40, 42, 52, 0.95);
+    border-radius: 2px;
+    border: 1px solid #98c379;
+}
+
+tooltip label {
+    color: #98c379;
+}
+
+#cpu {
+    border-left: 1px solid #98c379;
+    padding-left: 8px;
+}
+
+#temperature, #backlight, #network, #keyboard-state {
+    border-right: 1px solid #98c379;
+    padding-right: 8px;
+}
+
+#network, #custom-keyboard, #pulseaudio {
+    padding-left: 6px;
 }
 
 #clock {
     font-weight: bold;
 }
 
+#keyboard-state label.locked {
+    color: #e06c75;
+}
+
 #battery {
+    padding: 0 6px;
 }
 
 #battery icon {
@@ -52,6 +83,7 @@ window#waybar {
 }
 
 #battery.charging {
+    color: #61afef;
 }
 
 #battery.warning:not(.charging) {

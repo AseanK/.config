@@ -46,4 +46,5 @@ require("lazy").setup({
 	require("plugin.alpha"),
 	-- require("plugin.noice"),
 	require("plugin.leap"),
+	-- require("plugin.java"),
 }, {})
