@@ -1,10 +1,13 @@
 local M = {
 	"folke/which-key.nvim",
+	event = "VeryLazy",
 }
 
 function M.config()
 	local which_key = require("which-key")
 	which_key.setup({
+		preset = "modern",
+		delay = 500,
 		plugins = {
 			marks = true,
 			registers = true,
@@ -25,9 +28,12 @@ function M.config()
 		win = {
 			-- don't allow the popup to overlap with the cursor
 			no_overlap = true,
-			padding = { 2, 2 }, -- extra window padding [top/bottom, right/left]
+			padding = { 0, 0 }, -- extra window padding [top/bottom, right/left]
 			title = false,
 			zindex = 1000,
+			wo = {
+				winblend = 0,
+			},
 		},
 		layout = {
 			spacing = 3,

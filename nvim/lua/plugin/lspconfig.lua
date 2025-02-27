@@ -1,90 +1,88 @@
-return { -- LSP Configuration & Plugins
+local M = {
 	"neovim/nvim-lspconfig",
 	dependencies = {
 		"williamboman/mason.nvim",
 		"williamboman/mason-lspconfig.nvim",
-		"WhoIsSethDaniel/mason-tool-installer.nvim",
-		{ "j-hui/fidget.nvim", opts = {
-			notification = {
-				window = {
-					winblend = 0,
-				},
-			},
-		} },
-		{ "folke/neodev.nvim", opts = {} },
-	},
-	config = function()
-		vim.api.nvim_create_autocmd("LspAttach", {
-			group = vim.api.nvim_create_augroup("lsp-attach", { clear = true }),
-			callback = function(event)
-				local map = function(keys, func, desc)
-					vim.keymap.set("n", keys, func, { buffer = event.buf, desc = "LSP: " .. desc })
-				end
-				map("gd", require("telescope.builtin").lsp_definitions, "[G]oto [D]efinition")
-				map("gr", require("telescope.builtin").lsp_references, "[G]oto [R]eferences")
-				map("gI", require("telescope.builtin").lsp_implementations, "[G]oto [I]mplementation")
-				map("<leader>D", require("telescope.builtin").lsp_type_definitions, "Type [D]efinition")
-				map("<leader>ds", require("telescope.builtin").lsp_document_symbols, "[D]ocument [S]ymbols")
-				map("<leader>ws", require("telescope.builtin").lsp_dynamic_workspace_symbols, "[W]orkspace [S]ymbols")
-				map("<leader>rn", vim.lsp.buf.rename, "[R]e[n]ame")
-				map("<leader>ca", vim.lsp.buf.code_action, "[C]ode [A]ction")
-				map("K", vim.lsp.buf.hover, "Hover Documentation")
-				map("gD", vim.lsp.buf.declaration, "[G]oto [D]eclaration")
-				local client = vim.lsp.get_client_by_id(event.data.client_id)
-				if client and client.server_capabilities.documentHighlightProvider then
-					vim.api.nvim_create_autocmd({ "CursorHold", "CursorHoldI" }, {
-						buffer = event.buf,
-						callback = vim.lsp.buf.document_highlight,
-					})
-
-					vim.api.nvim_create_autocmd({ "CursorMoved", "CursorMovedI" }, {
-						buffer = event.buf,
-						callback = vim.lsp.buf.clear_references,
-					})
-				end
-			end,
-		})
-		local capabilities = vim.lsp.protocol.make_client_capabilities()
-		capabilities = vim.tbl_deep_extend("force", capabilities, require("cmp_nvim_lsp").default_capabilities())
-		local servers = {
-			clangd = {},
-			gopls = {},
-			pyright = {},
-			rust_analyzer = {},
-			lua_ls = {
-				-- cmd = {...},
-				-- filetypes { ...},
-				-- capabilities = {},
-				settings = {
-					Lua = {
-						completion = {
-							callSnippet = "Replace",
-						},
-						diagnostics = { disable = { "missing-fields" } },
-						window = {
-							progressBar = false,
-							statusBar = false,
-						},
-					},
-				},
-			},
-		}
-
-		require("mason").setup()
-		local ensure_installed = vim.tbl_keys(servers or {})
-		vim.list_extend(ensure_installed, {
-			"stylua", -- Used to format lua code
-		})
-		require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
-
-		require("mason-lspconfig").setup({
-			handlers = {
-				function(server_name)
-					local server = servers[server_name] or {}
-					server.capabilities = vim.tbl_deep_extend("force", {}, capabilities, server.capabilities or {})
-					require("lspconfig")[server_name].setup(server)
-				end,
-			},
-		})
-	end,
+		"folke/neodev.nvim" }
 }
+
+function M.config()
+	require('mason').setup()
+	require('mason-lspconfig').setup()
+	vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover, {
+		border = "rounded", -- Use single-line border
+	})
+
+
+	local lspconfig = require('lspconfig')
+	local on_attach = function(_, bufnr)
+		local attach_opts = { silent = true, buffer = bufnr }
+		vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, attach_opts)
+		vim.keymap.set('n', 'gd', vim.lsp.buf.definition, attach_opts)
+		vim.keymap.set('n', 'K', vim.lsp.buf.hover, attach_opts)
+		vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, attach_opts)
+		vim.keymap.set('n', '<C-s>', vim.lsp.buf.signature_help, attach_opts)
+		vim.keymap.set('n', '<leader>wa', vim.lsp.buf.add_workspace_folder, attach_opts)
+		vim.keymap.set('n', '<leader>wr', vim.lsp.buf.remove_workspace_folder, attach_opts)
+		vim.keymap.set('n', '<leader>wl', function() print(vim.inspect(vim.lsp.buf.list_workspace_folders())) end,
+			attach_opts)
+		vim.keymap.set('n', '<leader>D', vim.lsp.buf.type_definition, attach_opts)
+		vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, attach_opts)
+		vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, attach_opts)
+	end
+
+	local capabilities = vim.lsp.protocol.make_client_capabilities()
+	capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
+
+	-- Enable the following language servers
+	local servers = { 'clangd', 'rust_analyzer', 'pyright', 'ts_ls' }
+	for _, lsp in ipairs(servers) do
+		lspconfig[lsp].setup {
+			on_attach = on_attach,
+			capabilities = capabilities,
+		}
+	end
+
+	require('neodev').setup {}
+	lspconfig.lua_ls.setup {
+		on_attach = on_attach,
+		capabilities = capabilities,
+		settings = {
+			Lua = {
+				completion = {
+					callSnippet = 'Replace',
+				},
+				diagnostics = { disable = { "missing-fields" } },
+			},
+		},
+	}
+
+	-- lspconfig["dartls"].setup({
+	-- 	capabilities = capabilities,
+	-- 	cmd = {
+	-- 		"dart",
+	-- 		"language-server",
+	-- 		"--protocol=lsp",
+	-- 		-- "--port=8123",
+	-- 		-- "--instrumentation-log-file=/users/robertbrunhage/desktop/lsp-log.txt",
+	-- 	},
+	-- 	filetypes = { "dart" },
+	-- 	init_options = {
+	-- 		onlyAnalyzeProjectsWithOpenFiles = false,
+	-- 		suggestFromUnimportedLibraries = true,
+	-- 		closingLabels = true,
+	-- 		outline = false,
+	-- 		flutterOutline = false,
+	-- 	},
+	-- 	settings = {
+	-- 		dart = {
+	-- 			-- analysisExcludedFolders = dartExcludedFolders,
+	-- 			updateImportsOnRename = true,
+	-- 			completeFunctionCalls = true,
+	-- 			showTodos = true,
+	-- 		},
+	-- 	},
+	-- })
+end
+
+return M

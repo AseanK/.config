@@ -16,16 +16,7 @@ require("lazy").setup({
 	"tpope/vim-fugitive",
 	"tpope/vim-rhubarb",
 	-- Detect tabstop and shiftwidth automatically
-	"tpope/vim-sleuth",
-
-	-- smooth scroll [Not activate]
-	-- "karb94/neoscroll.nvim",
-
-	-- file explorer
-	-- "stevearc/oil.nvim",
-
-	-- "gc" to comment visual regions/lines
-	{ "numToStr/Comment.nvim", opts = {} },
+	-- "tpope/vim-sleuth",
 
 	require("plugin.lualine"),
 	require("plugin.lspconfig"),
@@ -34,17 +25,23 @@ require("lazy").setup({
 	require("plugin.telescope"),
 	require("plugin.theme"),
 	require("plugin.cmp"),
-	require("plugin.nvimtree"),
-	require("plugin.incline"),
-	require("plugin.surround"),
-	require("plugin.navigator"),
 	require("plugin.colorizer"),
-	require("plugin.autopairs"),
 	require("plugin.illuminate"),
-	require("plugin.indentline"),
-	require("plugin.conform"),
 	require("plugin.alpha"),
-	-- require("plugin.noice"),
-	require("plugin.leap"),
 	-- require("plugin.java"),
+	require("plugin.dressing"),
+	require("plugin.flutter"),
+	require("plugin.harpoon"),
+	require("plugin.dap"),
+	require("plugin.trouble"),
+	-- MINI
+	require("plugin.mini.files"),
+	require("plugin.mini.surround"),
+	require("plugin.mini.pairs"),
+	require("plugin.mini.comment"),
+	require("plugin.mini.ai"),
+	require("plugin.mini.splitjoin"),
+	require("plugin.mini.bracketed"),
+	require("plugin.mini.jump"),
+	require("plugin.mini.indentscope"),
 }, {})

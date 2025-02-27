@@ -3,6 +3,7 @@ local M = {
 	branch = "0.1.x",
 	dependencies = {
 		"nvim-lua/plenary.nvim",
+		"nvim-telescope/telescope-ui-select.nvim",
 		{
 			"nvim-telescope/telescope-fzf-native.nvim",
 			build = "make",
@@ -23,7 +24,14 @@ function M.config()
 				},
 			},
 		},
+		-- extensions = {
+		-- 	["ui-select"] = {
+		-- 		require("telescope.themes").get_dropdown({}),
+		-- 	},
+		-- },
 	})
+
+	-- require("telescope").load_extension("ui-select")
 
 	-- Enable telescope fzf native, if installed
 	pcall(require("telescope").load_extension, "fzf")
