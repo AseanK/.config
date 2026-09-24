@@ -1,0 +1,10 @@
+2026/09/17-05:37:37.808 49a3 Creating DB /home/krean/.config/google-chrome/Default/IndexedDB/https_www.scener.com_0.indexeddb.leveldb since it was missing.
+2026/09/17-05:37:37.810 49a3 Reusing MANIFEST /home/krean/.config/google-chrome/Default/IndexedDB/https_www.scener.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/17-05:37:37.814 49a5 Level-0 table #5: started
+2026/09/17-05:37:37.815 49a5 Level-0 table #5: 1320 bytes OK
+2026/09/17-05:37:37.816 49a5 Delete type=0 #3
+2026/09/17-05:37:37.816 49a5 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/09/17-05:39:07.195 4953 Level-0 table #7: started
+2026/09/17-05:39:07.196 4953 Level-0 table #7: 2943 bytes OK
+2026/09/17-05:39:07.197 4953 Delete type=0 #4
+2026/09/17-05:39:07.197 494e Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,6 @@
+2026/09/19-03:19:13.049 6ea Creating DB /home/krean/.config/google-chrome/Default/WebStorage/30/IndexedDB/indexeddb.leveldb since it was missing.
+2026/09/19-03:19:13.051 6ea Reusing MANIFEST /home/krean/.config/google-chrome/Default/WebStorage/30/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/09/19-03:19:36.437 6e6 Level-0 table #5: started
+2026/09/19-03:19:36.438 6e6 Level-0 table #5: 48108 bytes OK
+2026/09/19-03:19:36.439 6e6 Delete type=0 #3
+2026/09/19-03:19:36.439 6e6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

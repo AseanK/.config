@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "organization_id": "3b93d96e-bf6b-4454-94bb-a11b3620e934",
+  "workspace_id": "wrkspc_016Xh1dRQGfutXDGs5AJWFLx",
+  "authentication": {
+    "type": "user_oauth",
+    "client_id": "41077d10-94b8-4194-be48-d251e9eb21b4"
+  },
+  "created_by": "claude-code"
+}

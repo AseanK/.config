@@ -1,0 +1,338 @@
+2026-09-18 17:56:02.489   [DBG] Check config path: '/home/krean/TradingView/configs/config.json'
+2026-09-18 17:56:02.489   [DBG] Check config path: '/usr/lib/tradingview/resources/app.asar/configs/config.json'
+2026-09-18 17:56:02.489   [INF] Use config path: '/usr/lib/tradingview/resources/app.asar/configs/config.json'
+2026-09-18 17:56:02.490   [DBG] Configuration.updateConfigFromEnvironment(): "TVD_DEBUGMODE: false"
+2026-09-18 17:56:02.632   [DBG] Initializing UserService
+2026-09-18 17:56:02.632   [INF] Initializing AppEventService
+2026-09-18 17:56:02.632   [DBG] Initializing AuthenticationHandler
+2026-09-18 17:56:02.633   [DBG] Logger initialized
+2026-09-18 17:56:02.633   [DBG] Initializing PersistenceService
+2026-09-18 17:56:02.633   [DBG] Initializing MainService
+2026-09-18 17:56:02.633   [DBG] MainService.subscribeAppEvents()
+2026-09-18 17:56:02.634   [DBG] Initializing LocaleService
+2026-09-18 17:56:02.634   [INF] Main service created. appPath: '/usr/lib/tradingview/resources/app.asar', documentsPath: '/home/krean/TradingView' 
+2026-09-18 17:56:02.648   [DBG] Initializing ThemeManager service
+2026-09-18 17:56:02.650   [DBG] od.setPlatformTheme()
+2026-09-18 17:56:02.650   [DBG] Initializing WindowService
+2026-09-18 17:56:02.651   [DBG] lD.getChartWindows()
+2026-09-18 17:56:02.651   [DBG] od.applyTheme()
+2026-09-18 17:56:02.651   [DBG] Initializing SettingsProvider
+2026-09-18 17:56:02.651   [DBG] PasswordManagerService.getShouldSaveCredentials()
+2026-09-18 17:56:02.651   [DBG] PasswordManagerService.setShouldSaveCredentials()
+2026-09-18 17:56:02.651   [DBG] AppEventService.doStartup()
+2026-09-18 17:56:02.651   [DBG] AppEventService.checkFirstRun()
+2026-09-18 17:56:02.652   [DBG] Initializing TrackEventService
+2026-09-18 17:56:02.652   [DBG] TrackEventService.updateAppTrackingStatus()
+2026-09-18 17:56:02.652   [DBG] Nc.createRendererWorkerWindow()
+2026-09-18 17:56:02.664   [DBG] StatefulWindow.addDisposable()
+2026-09-18 17:56:02.664   [DBG] StatefulWindow.applyWindowTheme()
+2026-09-18 17:56:02.664   [DBG] od.applyTheme()
+2026-09-18 17:56:02.664   [DBG] StatefulWindow.addDisposable()
+2026-09-18 17:56:02.664   [DBG] StatefulWindow.load()
+2026-09-18 17:56:02.668   [DBG] StatefulWindow.createAppAwaiter()
+2026-09-18 17:56:02.669   [DBG] StatefulWindow.createAppAwaiter()
+2026-09-18 17:56:02.669   [DBG] Nc.createRendererWorkerWindow()
+2026-09-18 17:56:02.672   [DBG] StatefulWindow.addDisposable()
+2026-09-18 17:56:02.672   [DBG] StatefulWindow.applyWindowTheme()
+2026-09-18 17:56:02.672   [DBG] od.applyTheme()
+2026-09-18 17:56:02.672   [DBG] StatefulWindow.addDisposable()
+2026-09-18 17:56:02.672   [DBG] StatefulWindow.load()
+2026-09-18 17:56:02.675   [DBG] StatefulWindow.createAppAwaiter()
+2026-09-18 17:56:02.675   [DBG] StatefulWindow.createAppAwaiter()
+2026-09-18 17:56:02.712   [DBG] AppEventService.initSession()
+2026-09-18 17:56:02.712   [DBG] od.setPlatformTheme()
+2026-09-18 17:56:02.712   [DBG] UserService.Startup()
+2026-09-18 17:56:02.712   [DBG] [17:56:2]: 'Startup ' (48) ms
+2026-09-18 17:56:02.712   [INF] Build config: version=3.3.0, repositoryType=other
+2026-09-18 17:56:02.712   [INF] Show Splash Window
+2026-09-18 17:56:02.724   [DBG] MainService.registerOsTasks()
+2026-09-18 17:56:02.724   [DBG] TrackEventService().Startup()
+2026-09-18 17:56:02.724   [DBG] AppEventService.getCid()
+2026-09-18 17:56:02.724   [DBG] MainService.getVersionInfo()
+2026-09-18 17:56:02.734   [DBG] PermissionsHandler.initialize()
+2026-09-18 17:56:02.826   [DBG] [17:56:2]-[17:56:2]: 'StatefulWindow: loading window page, url: '/app/browser-api-container/index.html'' (154) ms
+2026-09-18 17:56:02.826   [INF] Window page loaded, url: '/app/browser-api-container/index.html'
+2026-09-18 17:56:02.829   [DBG] Drag service window finished load
+2026-09-18 17:56:02.834   [DBG] Initializing TabDragHandler
+2026-09-18 17:56:02.837   [DBG] [17:56:2]-[17:56:2]: 'StatefulWindow: loading window page, url: '/app/renderer-services/drag-service/index.html'' (173) ms
+2026-09-18 17:56:02.837   [INF] Window page loaded, url: '/app/renderer-services/drag-service/index.html'
+2026-09-18 17:56:02.839   [INF] Creating drag service
+2026-09-18 17:56:02.850   [DBG] AppEventService.focusWebContent()
+2026-09-18 17:56:02.855   [DBG] MainService.getVersionInfo()
+2026-09-18 17:56:03.13    [INF] Will sign in user: 'ZoneVer', id: '101332255'
+2026-09-18 17:56:03.450   [INF] Locale info. locale: 'en', host: 'https://www.tradingview.com/'
+2026-09-18 17:56:03.451   [DBG] UserService.notifyUserSignedIn()
+2026-09-18 17:56:03.451   [DBG] PersistenceService.checkUserStorageExistence()
+2026-09-18 17:56:03.451   [INF] Restore user app state from '/home/krean/.config/TradingView/TVUserStorage/id-101332255/settings.json'
+2026-09-18 17:56:03.451   [DBG] PersistenceService.restore()
+2026-09-18 17:56:03.452   [DBG] TrackEventService.setUserData()
+2026-09-18 17:56:03.463   [DBG] FileBasedStorage.restore()
+2026-09-18 17:56:03.464   [DBG] MainService.beforeStateApplying()
+2026-09-18 17:56:03.464   [DBG] MainService.stateApplied()
+2026-09-18 17:56:03.465   [DBG] TabManager.resetState()
+2026-09-18 17:56:03.465   [DBG] PersistentArrayProxy.internalApplyState()
+2026-09-18 17:56:03.467   [DBG] StatefulWindow.addDisposable()
+2026-09-18 17:56:03.467   [DBG] StatefulWindow.applyWindowTheme()
+2026-09-18 17:56:03.467   [DBG] od.applyTheme()
+2026-09-18 17:56:03.467   [DBG] StatefulWindow.addDisposable()
+2026-09-18 17:56:03.467   [INF] Created base window, tweaking current window
+2026-09-18 17:56:03.467   [DBG] TabManager.createDefaultGroup()
+2026-09-18 17:56:03.467   [INF] TabManager.createDefaultGroup: created group 5e3d7e20-a501-4a76-89cb-18b56e498876 for window 5e3d7e20-a501-4a76-89cb-18b56e498876
+2026-09-18 17:56:03.467   [DBG] [dfc1e730] StatefulWindow.addDisposable()
+2026-09-18 17:56:03.467   [DBG] [dfc1e730] StatefulWindow.addDisposable()
+2026-09-18 17:56:03.468   [DBG] od.applyTheme()
+2026-09-18 17:56:03.476   [DBG] [dfc1e730] TabbedWindowBase.internalApplyState()
+2026-09-18 17:56:03.476   [DBG] TabManager.deleteDefaultGroup()
+2026-09-18 17:56:03.476   [INF] TabManager.deleteDefaultGroup: deleted Default group for window 5e3d7e20-a501-4a76-89cb-18b56e498876
+2026-09-18 17:56:03.476   [DBG] TabManager.getDefaultGroup()
+2026-09-18 17:56:03.476   [DBG] TabManager.createDefaultGroup()
+2026-09-18 17:56:03.476   [INF] TabManager.createDefaultGroup: created group 578ee4b5-632c-4987-ad61-a05e8ffbb912 for window 578ee4b5-632c-4987-ad61-a05e8ffbb912
+2026-09-18 17:56:03.476   [DBG] TabManager.createTab()
+2026-09-18 17:56:03.479   [DBG] [bb4e7829] ll.setupTVViewEvents()
+2026-09-18 17:56:03.480   [INF] TabManager.createTab: created tab bb4e7829-4ac9-4a5f-90c0-e813cd5c5fc8 in group 578ee4b5-632c-4987-ad61-a05e8ffbb912 at position 0
+2026-09-18 17:56:03.480   [DBG] TabManager.createTab()
+2026-09-18 17:56:03.481   [DBG] [2e79f954] ll.setupTVViewEvents()
+2026-09-18 17:56:03.481   [INF] TabManager.createTab: created tab 2e79f954-0e7c-4836-a8b5-6096795808b5 in group 578ee4b5-632c-4987-ad61-a05e8ffbb912 at position 1
+2026-09-18 17:56:03.481   [DBG] [dfc1e730] StatefulWindow.load()
+2026-09-18 17:56:03.485   [DBG] [dfc1e730] StatefulWindow.createAppAwaiter()
+2026-09-18 17:56:03.485   [DBG] PersistentArrayProxy.resetItems()
+2026-09-18 17:56:03.487   [DBG] [bb4e7829] ll.setupTVViewEvents()
+2026-09-18 17:56:03.488   [DBG] [2e79f954] ll.setupTVViewEvents()
+2026-09-18 17:56:03.488   [INF] TabManager.internalApplyState: restored default group (578ee4b5-632c-4987-ad61-a05e8ffbb912), 2 tabs
+2026-09-18 17:56:03.610   [DBG] od.applyTheme()
+2026-09-18 17:56:03.612   [DBG] [17:56:3]-[17:56:3]: 'StatefulWindow: loading window page, url: '/app/window/index.html'' (131) ms
+2026-09-18 17:56:03.615   [DBG] [Renderer] initializeIpcProxyForInstance windowControl id: dfc1e730-tvd:tabbed-window; Old id undefined
+2026-09-18 17:56:03.617   [INF] Initializing AutoUpdateService
+2026-09-18 17:56:03.624   [DBG] App.componentDidMount()
+2026-09-18 17:56:03.626   [DBG] App.tokyoNightInitialize()
+2026-09-18 17:56:03.626   [DBG] App.setParentId()
+2026-09-18 17:56:03.626   [DBG] [Renderer] initializeIpcProxyForInstance windowControl id: dfc1e730-tvd:tabbed-window; Old id undefined
+2026-09-18 17:56:03.626   [DBG] [dfc1e730] TabbedWindowBase.getWindowStateAsync()
+2026-09-18 17:56:03.630   [DBG] App.setParentId(): "Registered window id: "
+2026-09-18 17:56:03.630   [INF] Window finished load id: 'dfc1e730'
+2026-09-18 17:56:03.630   [DBG] [dfc1e730] TabbedWindowBase.notifyTabsChanged()
+2026-09-18 17:56:03.630   [DBG] [dfc1e730] TabbedWindowBase.updateTabsContainer()
+2026-09-18 17:56:03.631   [DBG] [dfc1e730] StatefulWindow.show()
+2026-09-18 17:56:03.631   [INF] Window page loaded, url: '/app/window/index.html'
+2026-09-18 17:56:03.631   [DBG] [dfc1e730] TabbedWindowBase.handleTabLoading()
+2026-09-18 17:56:03.631   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:03.633   [DBG] [dfc1e730] TabbedWindowBase.handleTabLoading()
+2026-09-18 17:56:03.633   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:03.633   [DBG] [dfc1e730] TabbedWindowBase.updateTabsContainer()
+2026-09-18 17:56:03.633   [DBG] [dfc1e730] TabbedWindowBase.restoreWindowState()
+2026-09-18 17:56:03.633   [DBG] [dfc1e730] TabbedWindowBase.setActiveTab()
+2026-09-18 17:56:03.634   [DBG] [dfc1e730] TabbedWindowBase.notifyTabsChanged()
+2026-09-18 17:56:03.634   [DBG] [dfc1e730] TabbedWindowBase.updateTabsContainer()
+2026-09-18 17:56:03.634   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:03.634   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:03.635   [DBG] lD.mergeAnonymousSession()
+2026-09-18 17:56:03.635   [DBG] Ta.notifyListeners()
+2026-09-18 17:56:03.635   [DBG] PasswordManagerService.getShouldSaveCredentials()
+2026-09-18 17:56:03.635   [DBG] PasswordManagerService.setShouldSaveCredentials()
+2026-09-18 17:56:03.635   [INF] Hide Splash Window
+2026-09-18 17:56:03.635   [DBG] AppEventService.openForwardedUrl()
+2026-09-18 17:56:03.635   [DBG] [17:56:3]: 'Session restored' (971) ms
+2026-09-18 17:56:03.635   [DBG] [17:56:3]-[17:56:3]: 'Restore user session' (184) ms
+2026-09-18 17:56:03.635   [DBG] TrackEventService.trackStartApp()
+2026-09-18 17:56:03.637   [DBG] TaskQueueImpl.startTask()
+2026-09-18 17:56:03.637   [DBG] Tab id: 2e79f954, loading url: https://www.tradingview.com/heatmap/stock/#%7B%22dataSource%22%3A%22KOSPI%22%2C%22blockColor%22%3A%22change%22%2C%22blockSize%22%3A%22market_cap_basic%22%2C%22grouping%22%3A%22sector%22%7D
+2026-09-18 17:56:03.639   [DBG] Check config path: '/home/krean/TradingView/configs/nav-rules.json'
+2026-09-18 17:56:03.639   [DBG] Check config path: '/usr/lib/tradingview/resources/app.asar/configs/nav-rules.json'
+2026-09-18 17:56:03.639   [INF] Use config path: '/usr/lib/tradingview/resources/app.asar/configs/nav-rules.json'
+2026-09-18 17:56:03.667   [DBG] <App>.componentDidMount(): "Will update window state: 3"
+2026-09-18 17:56:03.674   [DBG] [145d5fe9] TabPanel.updateTabs()
+2026-09-18 17:56:03.674   [DBG] App.initialize()
+2026-09-18 17:56:03.674   [DBG] App.subscribeOnWindowEvents()
+2026-09-18 17:56:03.674   [DBG] [145d5fe9] TabPanel.updateTabs()
+2026-09-18 17:56:03.675   [DBG] [145d5fe9] TabPanel.updateTabs()
+2026-09-18 17:56:03.675   [DBG] [dfc1e730] TabbedWindowBase.registerTabController()
+2026-09-18 17:56:03.675   [INF] TabbedWindowBase.registerTabController(tabId: bb4e7829-4ac9-4a5f-90c0-e813cd5c5fc8, from window id: 8dce6d93-tvd:tab)
+2026-09-18 17:56:03.675   [DBG] TabbedWindowBase.findTabById(tabId: bb4e7829)
+2026-09-18 17:56:03.676   [DBG] [dfc1e730] TabbedWindowBase.registerTabController()
+2026-09-18 17:56:03.676   [INF] TabbedWindowBase.registerTabController(tabId: 2e79f954-0e7c-4836-a8b5-6096795808b5, from window id: cdeb2725-tvd:tab)
+2026-09-18 17:56:03.676   [DBG] TabbedWindowBase.findTabById(tabId: 2e79f954)
+2026-09-18 17:56:03.677   [DBG] NativeDragService.registerDraggable()
+2026-09-18 17:56:03.689   [DBG] <Tab>.componentDidMount(): "registered draggable with id 8dce6d93"
+2026-09-18 17:56:03.689   [DBG] <Tab>.componentDidMount(): "registered draggable with id cdeb2725"
+2026-09-18 17:56:03.690   [DBG] NativeDragService.registerDraggable()
+2026-09-18 17:56:03.693   [DBG] <Tab>.componentDidMount(): "registered controller for tab 8dce6d93"
+2026-09-18 17:56:03.693   [DBG] <Tab>.componentDidMount(): "registered controller for tab cdeb2725"
+2026-09-18 17:56:03.711   [DBG] AppEventService.focusWebContent()
+2026-09-18 17:56:03.719   [DBG] [dfc1e730] TabbedWindowBase.registerTabPanel()
+2026-09-18 17:56:03.720   [DBG] NativeDragService.registerDroppable()
+2026-09-18 17:56:03.720   [DBG] TabPanel.componentDidMount(): "Registered droppable with id: 145d5fe9"
+2026-09-18 17:56:03.824   [DBG] Initializing ToastWindow id 99e27dc5-tvd:toast-window
+2026-09-18 17:56:03.826   [DBG] od.applyTheme()
+2026-09-18 17:56:03.826   [DBG] ToastWindow.loadToast(toast: zl)
+2026-09-18 17:56:03.960   [DBG] [Renderer] initializeIpcProxyForInstance toastWindowHandler id: 99e27dc5-tvd:toast-window; Old id undefined
+2026-09-18 17:56:03.960   [DBG] ToastWindow.registerDimensionsCalcView(id: b3bedccb-tvd:toast-view)
+2026-09-18 17:56:03.960   [DBG] [Renderer] Toast view id: b3bedccb-tvd:toast-view
+2026-09-18 17:56:03.964   [DBG] ToastWindow.setToastSizes(dimensions: { width: 240, height: 60)
+2026-09-18 17:56:03.964   [DBG] [99e27dc5] Gl.getToastDimensions()
+2026-09-18 17:56:03.964   [DBG] ToastWindow.setToastPosition(coordinates: { x: 840, y: 90 })
+2026-09-18 17:56:03.964   [DBG] ToastWindow.setAlwaysOnTop(flag: true, level: pop-up-menu, relativeLevel: 1})
+2026-09-18 17:56:03.964   [DBG] ToastWindow.show(wnd: 5)
+2026-09-18 17:56:03.969   [DBG] ToastWindow.setToastSizes(dimensions: { width: 240, height: 60)
+2026-09-18 17:56:04.30    [INF] Tab [2e79f954] successfully navigated to https://www.tradingview.com/heatmap/stock/#%7B%22dataSource%22%3A%22KOSPI%22%2C%22blockColor%22%3A%22change%22%2C%22blockSize%22%3A%22market_cap_basic%22%2C%22grouping%22%3A%22sector%22%7D
+2026-09-18 17:56:04.48    [DBG] Platform requested get-theme
+2026-09-18 17:56:04.50    [DBG] Tab id: 2e79f954 page-title-updated
+2026-09-18 17:56:04.213   [DBG] Tab id: 2e79f954 dom-ready
+2026-09-18 17:56:04.213   [DBG] lD.zoom()
+2026-09-18 17:56:04.213   [DBG] ZoomController.setZoomValue()
+2026-09-18 17:56:04.213   [DBG] lD.getChartWindows()
+2026-09-18 17:56:04.268   [INF] Check permission (geolocation) on (https://www.tradingview.com/heatmap/stock/#%7B%22dataSource%22%3A%22KOSPI%22%2C%22blockColor%22%3A%22change%22%2C%22blockSize%22%3A%22market_cap_basic%22%2C%22grouping%22%3A%22sector%22%7D)
+2026-09-18 17:56:04.269   [DBG] Tab id: 2e79f954 did-navigate-in-page: https://www.tradingview.com/heatmap/stock/#%7B%22dataSource%22%3A%22KOSPI%22%2C%22blockColor%22%3A%22change%22%2C%22blockSize%22%3A%22market_cap_basic%22%2C%22grouping%22%3A%22sector%22%7D
+2026-09-18 17:56:04.302   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:04.302   [DBG] [dfc1e730] TabbedWindowBase.setActiveTabView()
+2026-09-18 17:56:04.303   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:04.303   [DBG] TaskQueueImpl.startTask()
+2026-09-18 17:56:04.303   [DBG] Tab id: bb4e7829, loading url: https://www.tradingview.com/chart/hxNMCbcx/
+2026-09-18 17:56:04.525   [INF] Tab [bb4e7829] successfully navigated to https://www.tradingview.com/chart/hxNMCbcx/
+2026-09-18 17:56:04.551   [DBG] Platform requested get-theme
+2026-09-18 17:56:04.556   [DBG] Tab id: bb4e7829 page-title-updated
+2026-09-18 17:56:04.742   [DBG] Tab id: bb4e7829 dom-ready
+2026-09-18 17:56:04.743   [DBG] lD.zoom()
+2026-09-18 17:56:04.743   [DBG] ZoomController.setZoomValue()
+2026-09-18 17:56:04.743   [DBG] lD.getChartWindows()
+2026-09-18 17:56:05.226   [DBG] [dfc1e730] TabbedWindowBase.findTabByWebContents()
+2026-09-18 17:56:05.440   [INF] Check permission (geolocation) on (https://www.tradingview.com/chart/hxNMCbcx/)
+2026-09-18 17:56:05.440   [DBG] Tab id: bb4e7829 did-navigate-in-page: https://www.tradingview.com/chart/hxNMCbcx/
+2026-09-18 17:56:05.540   [DBG] [dfc1e730] TabbedWindowBase.findTabByWebContents()
+2026-09-18 17:56:05.664   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:07.744   [DBG] [8dce6d93] ll.restoreChartLayout()
+2026-09-18 17:56:07.756   [INF] [restoreLayout()] will restore symbols
+2026-09-18 17:56:07.757   [DBG] resultSymbolChanges = fulfilled; resultIntervalChanges = fulfilled;
+2026-09-18 17:56:07.759   [DBG] TvTab.setupTitleUpdates(): Layout restored.
+2026-09-18 17:56:07.906   [INF] Invoke key binding [ctrl+Digit1]
+2026-09-18 17:56:07.906   [DBG] MenuWindow.hide()
+2026-09-18 17:56:07.906   [DBG] MainMenuService.hideMenu()
+2026-09-18 17:56:07.906   [DBG] MenuWindow.hide()
+2026-09-18 17:56:07.906   [DBG] [dfc1e730] TabbedWindowBase.setActiveTab()
+2026-09-18 17:56:07.906   [DBG] [dfc1e730] TabbedWindowBase.notifyTabsChanged()
+2026-09-18 17:56:07.906   [DBG] [dfc1e730] TabbedWindowBase.updateTabsContainer()
+2026-09-18 17:56:07.906   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:07.906   [DBG] [dfc1e730] TabbedWindowBase.setActiveTabView()
+2026-09-18 17:56:07.907   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:07.918   [DBG] [145d5fe9] TabPanel.updateTabs()
+2026-09-18 17:56:08.382   [INF] Invoke key binding [ctrl+Digit2]
+2026-09-18 17:56:08.382   [DBG] MenuWindow.hide()
+2026-09-18 17:56:08.382   [DBG] MainMenuService.hideMenu()
+2026-09-18 17:56:08.382   [DBG] MenuWindow.hide()
+2026-09-18 17:56:08.382   [DBG] [dfc1e730] TabbedWindowBase.setActiveTab()
+2026-09-18 17:56:08.382   [DBG] [dfc1e730] TabbedWindowBase.notifyTabsChanged()
+2026-09-18 17:56:08.382   [DBG] [dfc1e730] TabbedWindowBase.updateTabsContainer()
+2026-09-18 17:56:08.382   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:08.383   [DBG] [dfc1e730] TabbedWindowBase.setActiveTabView()
+2026-09-18 17:56:08.383   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:08.394   [DBG] [145d5fe9] TabPanel.updateTabs()
+2026-09-18 17:56:08.696   [INF] Invoke key binding [ctrl+Digit1]
+2026-09-18 17:56:08.696   [DBG] MenuWindow.hide()
+2026-09-18 17:56:08.696   [DBG] MainMenuService.hideMenu()
+2026-09-18 17:56:08.696   [DBG] MenuWindow.hide()
+2026-09-18 17:56:08.696   [DBG] [dfc1e730] TabbedWindowBase.setActiveTab()
+2026-09-18 17:56:08.696   [DBG] [dfc1e730] TabbedWindowBase.notifyTabsChanged()
+2026-09-18 17:56:08.696   [DBG] [dfc1e730] TabbedWindowBase.updateTabsContainer()
+2026-09-18 17:56:08.696   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:08.697   [DBG] [dfc1e730] TabbedWindowBase.setActiveTabView()
+2026-09-18 17:56:08.697   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:08.710   [DBG] [145d5fe9] TabPanel.updateTabs()
+2026-09-18 17:56:11.916   [INF] Invoke key binding [ctrl+Digit2]
+2026-09-18 17:56:11.916   [DBG] MenuWindow.hide()
+2026-09-18 17:56:11.916   [DBG] MainMenuService.hideMenu()
+2026-09-18 17:56:11.916   [DBG] MenuWindow.hide()
+2026-09-18 17:56:11.916   [DBG] [dfc1e730] TabbedWindowBase.setActiveTab()
+2026-09-18 17:56:11.916   [DBG] [dfc1e730] TabbedWindowBase.notifyTabsChanged()
+2026-09-18 17:56:11.916   [DBG] [dfc1e730] TabbedWindowBase.updateTabsContainer()
+2026-09-18 17:56:11.917   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:11.917   [DBG] [dfc1e730] TabbedWindowBase.setActiveTabView()
+2026-09-18 17:56:11.917   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:11.933   [DBG] [145d5fe9] TabPanel.updateTabs()
+2026-09-18 17:56:12.152   [INF] Invoke key binding [ctrl+Digit1]
+2026-09-18 17:56:12.152   [DBG] MenuWindow.hide()
+2026-09-18 17:56:12.152   [DBG] MainMenuService.hideMenu()
+2026-09-18 17:56:12.152   [DBG] MenuWindow.hide()
+2026-09-18 17:56:12.152   [DBG] [dfc1e730] TabbedWindowBase.setActiveTab()
+2026-09-18 17:56:12.152   [DBG] [dfc1e730] TabbedWindowBase.notifyTabsChanged()
+2026-09-18 17:56:12.152   [DBG] [dfc1e730] TabbedWindowBase.updateTabsContainer()
+2026-09-18 17:56:12.153   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:12.154   [DBG] [dfc1e730] TabbedWindowBase.setActiveTabView()
+2026-09-18 17:56:12.154   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:12.169   [DBG] [145d5fe9] TabPanel.updateTabs()
+2026-09-18 17:56:16.388   [DBG] AppEventService.focusWebContent()
+2026-09-18 17:56:19.627   [INF] Invoke key binding [ctrl+Digit2]
+2026-09-18 17:56:19.627   [DBG] MenuWindow.hide()
+2026-09-18 17:56:19.627   [DBG] MainMenuService.hideMenu()
+2026-09-18 17:56:19.627   [DBG] MenuWindow.hide()
+2026-09-18 17:56:19.627   [DBG] [dfc1e730] TabbedWindowBase.setActiveTab()
+2026-09-18 17:56:19.627   [DBG] [dfc1e730] TabbedWindowBase.notifyTabsChanged()
+2026-09-18 17:56:19.627   [DBG] [dfc1e730] TabbedWindowBase.updateTabsContainer()
+2026-09-18 17:56:19.627   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:19.627   [DBG] [dfc1e730] TabbedWindowBase.setActiveTabView()
+2026-09-18 17:56:19.629   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:19.643   [DBG] [145d5fe9] TabPanel.updateTabs()
+2026-09-18 17:56:21.611   [INF] Invoke key binding [ctrl+Digit1]
+2026-09-18 17:56:21.611   [DBG] MenuWindow.hide()
+2026-09-18 17:56:21.611   [DBG] MainMenuService.hideMenu()
+2026-09-18 17:56:21.611   [DBG] MenuWindow.hide()
+2026-09-18 17:56:21.611   [DBG] [dfc1e730] TabbedWindowBase.setActiveTab()
+2026-09-18 17:56:21.611   [DBG] [dfc1e730] TabbedWindowBase.notifyTabsChanged()
+2026-09-18 17:56:21.611   [DBG] [dfc1e730] TabbedWindowBase.updateTabsContainer()
+2026-09-18 17:56:21.611   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:21.612   [DBG] [dfc1e730] TabbedWindowBase.setActiveTabView()
+2026-09-18 17:56:21.612   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:21.625   [DBG] [145d5fe9] TabPanel.updateTabs()
+2026-09-18 17:56:22.95    [INF] Invoke key binding [ctrl+Digit2]
+2026-09-18 17:56:22.95    [DBG] MenuWindow.hide()
+2026-09-18 17:56:22.95    [DBG] MainMenuService.hideMenu()
+2026-09-18 17:56:22.95    [DBG] MenuWindow.hide()
+2026-09-18 17:56:22.95    [DBG] [dfc1e730] TabbedWindowBase.setActiveTab()
+2026-09-18 17:56:22.95    [DBG] [dfc1e730] TabbedWindowBase.notifyTabsChanged()
+2026-09-18 17:56:22.95    [DBG] [dfc1e730] TabbedWindowBase.updateTabsContainer()
+2026-09-18 17:56:22.95    [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:22.96    [DBG] [dfc1e730] TabbedWindowBase.setActiveTabView()
+2026-09-18 17:56:22.96    [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:22.111   [DBG] [145d5fe9] TabPanel.updateTabs()
+2026-09-18 17:56:22.352   [INF] Invoke key binding [ctrl+Digit1]
+2026-09-18 17:56:22.352   [DBG] MenuWindow.hide()
+2026-09-18 17:56:22.352   [DBG] MainMenuService.hideMenu()
+2026-09-18 17:56:22.352   [DBG] MenuWindow.hide()
+2026-09-18 17:56:22.352   [DBG] [dfc1e730] TabbedWindowBase.setActiveTab()
+2026-09-18 17:56:22.352   [DBG] [dfc1e730] TabbedWindowBase.notifyTabsChanged()
+2026-09-18 17:56:22.352   [DBG] [dfc1e730] TabbedWindowBase.updateTabsContainer()
+2026-09-18 17:56:22.352   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:22.353   [DBG] [dfc1e730] TabbedWindowBase.setActiveTabView()
+2026-09-18 17:56:22.353   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:22.366   [DBG] [145d5fe9] TabPanel.updateTabs()
+2026-09-18 17:56:22.670   [INF] Invoke key binding [ctrl+Digit2]
+2026-09-18 17:56:22.670   [DBG] MenuWindow.hide()
+2026-09-18 17:56:22.670   [DBG] MainMenuService.hideMenu()
+2026-09-18 17:56:22.670   [DBG] MenuWindow.hide()
+2026-09-18 17:56:22.670   [DBG] [dfc1e730] TabbedWindowBase.setActiveTab()
+2026-09-18 17:56:22.670   [DBG] [dfc1e730] TabbedWindowBase.notifyTabsChanged()
+2026-09-18 17:56:22.670   [DBG] [dfc1e730] TabbedWindowBase.updateTabsContainer()
+2026-09-18 17:56:22.670   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:22.670   [DBG] [dfc1e730] TabbedWindowBase.setActiveTabView()
+2026-09-18 17:56:22.671   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:22.684   [DBG] [145d5fe9] TabPanel.updateTabs()
+2026-09-18 17:56:26.181   [INF] Invoke key binding [ctrl+Digit1]
+2026-09-18 17:56:26.181   [DBG] MenuWindow.hide()
+2026-09-18 17:56:26.181   [DBG] MainMenuService.hideMenu()
+2026-09-18 17:56:26.181   [DBG] MenuWindow.hide()
+2026-09-18 17:56:26.181   [DBG] [dfc1e730] TabbedWindowBase.setActiveTab()
+2026-09-18 17:56:26.181   [DBG] [dfc1e730] TabbedWindowBase.notifyTabsChanged()
+2026-09-18 17:56:26.181   [DBG] [dfc1e730] TabbedWindowBase.updateTabsContainer()
+2026-09-18 17:56:26.181   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:26.181   [DBG] [dfc1e730] TabbedWindowBase.setActiveTabView()
+2026-09-18 17:56:26.182   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:26.195   [DBG] [145d5fe9] TabPanel.updateTabs()
+2026-09-18 17:56:28.239   [INF] Invoke key binding [ctrl+Digit2]
+2026-09-18 17:56:28.239   [DBG] MenuWindow.hide()
+2026-09-18 17:56:28.239   [DBG] MainMenuService.hideMenu()
+2026-09-18 17:56:28.239   [DBG] MenuWindow.hide()
+2026-09-18 17:56:28.239   [DBG] [dfc1e730] TabbedWindowBase.setActiveTab()
+2026-09-18 17:56:28.239   [DBG] [dfc1e730] TabbedWindowBase.notifyTabsChanged()
+2026-09-18 17:56:28.239   [DBG] [dfc1e730] TabbedWindowBase.updateTabsContainer()
+2026-09-18 17:56:28.239   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:28.240   [DBG] [dfc1e730] TabbedWindowBase.setActiveTabView()
+2026-09-18 17:56:28.240   [DBG] [dfc1e730] TabbedWindowBase.setWindowLoading()
+2026-09-18 17:56:28.254   [DBG] [145d5fe9] TabPanel.updateTabs()

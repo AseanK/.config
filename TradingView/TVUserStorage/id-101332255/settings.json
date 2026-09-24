@@ -1,0 +1,141 @@
+{
+  "linking": {
+    "groups": []
+  },
+  "globals": {
+    "undo": [
+      {
+        "command": "tab-closed",
+        "data": {
+          "windowPid": "578ee4b5-632c-4987-ad61-a05e8ffbb912",
+          "position": 1,
+          "persistentId": "4bd89a4c-a014-4bba-938e-5847519a1c18",
+          "active": false,
+          "title": "New tab",
+          "pinned": false,
+          "url": "tvd://new-tab"
+        }
+      },
+      {
+        "command": "tab-closed",
+        "data": {
+          "windowPid": "578ee4b5-632c-4987-ad61-a05e8ffbb912",
+          "position": 2,
+          "persistentId": "0c71271b-3988-4a18-ae8c-8261e0a76c1b",
+          "active": true,
+          "title": "New tab",
+          "pinned": false,
+          "url": "tvd://new-tab"
+        }
+      }
+    ]
+  },
+  "tabs": {
+    "default": {
+      "578ee4b5-632c-4987-ad61-a05e8ffbb912": {
+        "tabs": [
+          {
+            "persistentId": "bb4e7829-4ac9-4a5f-90c0-e813cd5c5fc8",
+            "active": true,
+            "pinned": false,
+            "title": "KOSPI",
+            "url": "https://www.tradingview.com/chart/hxNMCbcx/",
+            "fullscreen": false,
+            "symbol": {
+              "layoutType": "s",
+              "charts": [
+                {
+                  "active": true,
+                  "interval": "1",
+                  "symbol": "KRX:KOSPI"
+                }
+              ]
+            }
+          },
+          {
+            "persistentId": "2e79f954-0e7c-4836-a8b5-6096795808b5",
+            "active": false,
+            "pinned": false,
+            "title": "Stock Heatmap",
+            "url": "https://www.tradingview.com/heatmap/stock/#%7B%22dataSource%22%3A%22KOSPI%22%2C%22blockColor%22%3A%22change%22%2C%22blockSize%22%3A%22market_cap_basic%22%2C%22grouping%22%3A%22sector%22%7D",
+            "fullscreen": false
+          }
+        ]
+      }
+    },
+    "user": {}
+  },
+  "app": {
+    "chartWindows": [
+      {
+        "persistentId": "578ee4b5-632c-4987-ad61-a05e8ffbb912",
+        "activeGroupId": null,
+        "options": {
+          "windowOptions": {
+            "width": 1261,
+            "height": 807,
+            "minWidth": 500,
+            "minHeight": 350,
+            "show": true,
+            "x": 0,
+            "y": 0,
+            "state": 4
+          },
+          "titleBarOptions": {
+            "showMainMenu": true,
+            "showTabs": true,
+            "showMaximize": true,
+            "showMinimize": true
+          }
+        },
+        "tabs": [
+          {
+            "persistentId": "bb4e7829-4ac9-4a5f-90c0-e813cd5c5fc8",
+            "active": true,
+            "pinned": false,
+            "title": "KOSPI",
+            "url": "https://www.tradingview.com/chart/hxNMCbcx/",
+            "fullscreen": false,
+            "symbol": {
+              "layoutType": "s",
+              "charts": [
+                {
+                  "active": true,
+                  "interval": "1",
+                  "symbol": "KRX:KOSPI"
+                }
+              ]
+            }
+          },
+          {
+            "persistentId": "2e79f954-0e7c-4836-a8b5-6096795808b5",
+            "active": false,
+            "pinned": false,
+            "title": "Stock Heatmap",
+            "url": "https://www.tradingview.com/heatmap/stock/#%7B%22dataSource%22%3A%22KOSPI%22%2C%22blockColor%22%3A%22change%22%2C%22blockSize%22%3A%22market_cap_basic%22%2C%22grouping%22%3A%22sector%22%7D",
+            "fullscreen": false
+          }
+        ]
+      }
+    ],
+    "state": {
+      "focusedWindowId": "578ee4b5-632c-4987-ad61-a05e8ffbb912"
+    }
+  },
+  "featureList": {
+    "tvd_background_throttling": {
+      "value": false,
+      "isChecked": false
+    }
+  },
+  "new-tab": {
+    "layoutSort": {
+      "sortField": "title",
+      "sortDirection": 0
+    },
+    "productDrawerButton": {
+      "showHint": true
+    },
+    "products": {}
+  }
+}

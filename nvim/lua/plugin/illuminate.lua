@@ -4,6 +4,11 @@ local M = {
 
 function M.config()
 	require("illuminate").configure({
+		providers = {
+			'lsp',
+			'treesitter',
+			'regex',
+		},
 		filetypes_denylist = {
 			"mason",
 			"harpoon",

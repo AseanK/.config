@@ -1,0 +1,10 @@
+2026/09/18-05:11:24.206 451 Creating DB /home/krean/.config/google-chrome/Default/IndexedDB/https_www.archtrading.co.kr_0.indexeddb.leveldb since it was missing.
+2026/09/18-05:11:24.208 451 Reusing MANIFEST /home/krean/.config/google-chrome/Default/IndexedDB/https_www.archtrading.co.kr_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/18-05:11:24.230 456 Level-0 table #5: started
+2026/09/18-05:11:24.231 456 Level-0 table #5: 1325 bytes OK
+2026/09/18-05:11:24.232 456 Delete type=0 #3
+2026/09/18-05:11:24.232 451 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/09/18-05:11:24.258 457 Level-0 table #7: started
+2026/09/18-05:11:24.259 457 Level-0 table #7: 1405 bytes OK
+2026/09/18-05:11:24.260 457 Delete type=0 #4
+2026/09/18-05:11:24.261 456 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

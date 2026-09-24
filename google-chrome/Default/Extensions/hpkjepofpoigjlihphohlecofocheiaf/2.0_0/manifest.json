@@ -1,0 +1,34 @@
+{
+   "description": "Inspired by Atom's One Dark theme",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAodE2nvI5cdmq43C9j3VxKNAdMagydf6QBJMk2b6mU1hRvYBlZ3ToUcl7UVEdNk7nZsA5Warla0oUqulJ7iT6MdjIwDg7st84I38UN5Ez+eq9ZApPMhsgy0/Pf82w4+j+bc26rf9ayj+MMJPZd7yTFkjdJgF/wimFjG9Ca2MW5zIL1kBzRl5U9d3mUSlkvtZFaIaP4FHOYmh50qnyBn0pb+gvw7uwXx2y7lW9wftVzOEjQYTfoWNGBTUDQ9VneErzaZMHcBWr/HEZlV/L1tqMq6Jb2u0oi7amfTny983Zmi5uNrw8YMFc6mMcvvXrBL8og1gynwYgSdm1yaU+oSNkAwIDAQAB",
+   "manifest_version": 2,
+   "name": "One Dark",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 204, 204, 204 ],
+         "button_background": [ 33, 37, 43, 0.9 ],
+         "frame": [ 255, 255, 255 ],
+         "frame_incognito": [ 255, 255, 255 ],
+         "ntp_background": [ 40, 44, 52 ],
+         "ntp_text": [ 157, 165, 180 ],
+         "tab_background_text": [ 144, 146, 149 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 33, 37, 43 ]
+      },
+      "images": {
+         "theme_frame": "images/theme_frame.png",
+         "theme_frame_incognito": "images/theme_frame.png",
+         "theme_tab_background": "images/theme_tab_background.png",
+         "theme_toolbar": "images/theme_toolbar.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "bottom",
+         "ntp_background_repeat": "no-repeat"
+      },
+      "tints": {
+         "buttons": [ 216, 13.2, 14.9 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0"
+}

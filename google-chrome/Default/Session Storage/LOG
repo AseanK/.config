@@ -1,0 +1,15 @@
+2026/09/23-22:18:19.896 5 Reusing MANIFEST /home/krean/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2026/09/23-22:18:19.897 5 Recovering log #24
+2026/09/23-22:18:19.898 5 Reusing old log /home/krean/.config/google-chrome/Default/Session Storage/000024.log 
+2026/09/23-22:28:24.200 9 Level-0 table #28: started
+2026/09/23-22:28:24.204 9 Level-0 table #28: 21512 bytes OK
+2026/09/23-22:28:24.207 9 Delete type=0 #24
+2026/09/23-22:28:24.207 9 Compacting 4@0 + 1@1 files
+2026/09/23-22:28:24.211 9 Generated table #29@0: 2894 keys, 43901 bytes
+2026/09/23-22:28:24.211 9 Compacted 4@0 + 1@1 files => 43901 bytes
+2026/09/23-22:28:24.212 9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/23-22:28:24.212 9 Delete type=2 #23
+2026/09/23-22:28:24.213 9 Delete type=2 #20
+2026/09/23-22:28:24.213 9 Delete type=2 #28
+2026/09/23-22:28:24.213 9 Delete type=2 #18
+2026/09/23-22:28:24.213 9 Delete type=2 #25

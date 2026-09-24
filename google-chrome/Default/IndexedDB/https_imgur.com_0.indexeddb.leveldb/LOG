@@ -1,0 +1,18 @@
+2026/09/18-04:45:37.223 451 Creating DB /home/krean/.config/google-chrome/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb since it was missing.
+2026/09/18-04:45:37.225 451 Reusing MANIFEST /home/krean/.config/google-chrome/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/18-04:45:37.318 452 Level-0 table #5: started
+2026/09/18-04:45:37.319 452 Level-0 table #5: 1634 bytes OK
+2026/09/18-04:45:37.320 452 Delete type=0 #3
+2026/09/18-04:45:37.321 451 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/09/18-04:45:46.418 452 Level-0 table #7: started
+2026/09/18-04:45:46.420 452 Level-0 table #7: 3078 bytes OK
+2026/09/18-04:45:46.421 452 Delete type=0 #4
+2026/09/18-04:45:46.421 452 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/09/18-04:45:46.421 452 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x009\x004\x005\x007\x007\x008\x008\x009\x005\x002\x006\x002\x00:\x00w\x00e\x00b\x00:\x007\x001\x00a\x004\x00d\x005\x003\x001\x002\x00c\x00b\x005\x00b\x00e\x005\x003\x009\x003\x004\x00e\x008\x00f' @ 178 : 1
+2026/09/18-04:45:46.421 452 Compacting 1@1 + 1@2 files
+2026/09/18-04:45:46.422 452 Generated table #8@1: 57 keys, 1912 bytes
+2026/09/18-04:45:46.422 452 Compacted 1@1 + 1@2 files => 1912 bytes
+2026/09/18-04:45:46.422 452 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/09/18-04:45:46.422 452 Delete type=2 #5
+2026/09/18-04:45:46.422 452 Delete type=2 #7
+2026/09/18-04:45:46.423 452 Manual compaction at level-1 from '\x00\x04\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x009\x004\x005\x007\x007\x008\x008\x009\x005\x002\x006\x002\x00:\x00w\x00e\x00b\x00:\x007\x001\x00a\x004\x00d\x005\x003\x001\x002\x00c\x00b\x005\x00b\x00e\x005\x003\x009\x003\x004\x00e\x008\x00f' @ 178 : 1 .. (end); will stop at (end)

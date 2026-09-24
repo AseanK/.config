@@ -1,0 +1,25 @@
+2026/09/20-16:08:54.833 554e Reusing MANIFEST /home/krean/.config/google-chrome/Default/IndexedDB/https_seekingalpha.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/20-16:08:54.833 554e Recovering log #51
+2026/09/20-16:08:54.833 554e Reusing old log /home/krean/.config/google-chrome/Default/IndexedDB/https_seekingalpha.com_0.indexeddb.leveldb/000051.log 
+2026/09/20-16:08:54.833 554e Delete type=2 #43
+2026/09/20-16:08:54.833 554e Delete type=2 #48
+2026/09/20-16:08:54.833 554e Delete type=2 #46
+2026/09/20-16:08:54.833 554e Delete type=2 #50
+2026/09/20-16:08:56.880 554a Level-0 table #56: started
+2026/09/20-16:08:56.883 554a Level-0 table #56: 253718 bytes OK
+2026/09/20-16:08:56.884 554a Delete type=0 #51
+2026/09/20-16:08:56.958 554e Level-0 table #58: started
+2026/09/20-16:08:56.962 554e Level-0 table #58: 234161 bytes OK
+2026/09/20-16:08:56.964 554e Delete type=0 #55
+2026/09/20-16:08:57.027 554e Level-0 table #60: started
+2026/09/20-16:08:57.029 554e Level-0 table #60: 234519 bytes OK
+2026/09/20-16:08:57.031 554e Delete type=0 #57
+2026/09/20-16:08:57.098 554e Level-0 table #62: started
+2026/09/20-16:08:57.101 554e Level-0 table #62: 183283 bytes OK
+2026/09/20-16:08:57.102 554e Delete type=0 #59
+2026/09/20-16:08:57.102 554e Compacting 4@0 + 1@1 files
+2026/09/20-16:08:57.116 554e Generated table #63@0: 2315 keys, 36478 bytes
+2026/09/20-16:08:57.116 554e Compacted 4@0 + 1@1 files => 36478 bytes
+2026/09/20-16:08:57.117 554e compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/20-16:08:57.117 554e Delete type=2 #62
+2026/09/20-16:08:57.117 554e Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

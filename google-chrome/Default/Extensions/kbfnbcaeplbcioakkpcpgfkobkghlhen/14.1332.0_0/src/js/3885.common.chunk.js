@@ -1,0 +1,1 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[3885],{3885:(e,a,r)=>{r.d(a,{activate:()=>i});var t=r(80192),c=r(88924);const i=async e=>({vbarCardOverrides:{getCardTitle:e=>c.h.getVBarTitle(e),getCardIcon:()=>({icon:t.$,size:"medium"})}})}}]);

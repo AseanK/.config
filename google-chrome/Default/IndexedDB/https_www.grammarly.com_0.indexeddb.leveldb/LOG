@@ -1,0 +1,6 @@
+2026/09/17-05:37:48.677 494e Creating DB /home/krean/.config/google-chrome/Default/IndexedDB/https_www.grammarly.com_0.indexeddb.leveldb since it was missing.
+2026/09/17-05:37:48.679 494e Reusing MANIFEST /home/krean/.config/google-chrome/Default/IndexedDB/https_www.grammarly.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/17-05:38:06.990 494e Level-0 table #5: started
+2026/09/17-05:38:06.991 494e Level-0 table #5: 3431 bytes OK
+2026/09/17-05:38:06.993 494e Delete type=0 #3
+2026/09/17-05:38:06.993 494e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

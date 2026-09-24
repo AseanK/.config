@@ -44,4 +44,8 @@ require("lazy").setup({
 	require("plugin.mini.bracketed"),
 	require("plugin.mini.jump"),
 	require("plugin.mini.indentscope"),
+	-- claude
+	require("plugin.claude"),
+
+	require("plugin.lazygit"),
 }, {})

@@ -1,5 +1,5 @@
 # : Manager {{{
-[manager]
+[mgr]
 cwd = { fg = "#61AFEF" }  # Blue
 
 # Hovered
@@ -144,8 +144,8 @@ rules = [
     { mime = "application/vnd.*", fg = "#98C379" },  # Green
 
     # Fallback
-    { name = "*", fg = "#ABB2BF" },  # Blue
-    { name = "*/", fg = "#61AFEF" }  # Blue
+    { url = "*", fg = "#ABB2BF" },  # Blue
+    { url = "*/", fg = "#61AFEF" }  # Blue
 ]
 
 # : }}}

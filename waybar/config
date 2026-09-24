@@ -94,9 +94,9 @@
 			},
 		},
 		"timezones": [
+			"Asia/Seoul",
 			"America/Los_Angeles",
 			"America/New_York",
-			"Asia/Seoul"
 		],
 		"actions": {
 			"on-scroll-up": "tz_up",

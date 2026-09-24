@@ -1,0 +1,144 @@
+{
+   "checksum": "0aae695a010e33d60dff6269f97ae981",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13310954007099653",
+            "date_last_used": "0",
+            "guid": "18c4f59b-c1df-4ac5-affa-340ffea53c1e",
+            "id": "13",
+            "name": "NAVER",
+            "type": "url",
+            "url": "https://www.naver.com/"
+         }, {
+            "date_added": "13434206965392585",
+            "date_last_used": "0",
+            "guid": "ce8c75fb-c63d-4be6-bf18-fe02931d7a0d",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ChatGPT",
+            "type": "url",
+            "url": "https://chatgpt.com/"
+         }, {
+            "date_added": "13434207005304067",
+            "date_last_used": "0",
+            "guid": "04ba50b5-0be2-446c-912f-72e549f71734",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "토스증권 | 자산",
+            "type": "url",
+            "url": "https://www.tossinvest.com/account"
+         }, {
+            "date_added": "13434207443768670",
+            "date_last_used": "0",
+            "guid": "1813e759-5387-4563-bc88-ad43c1a49d97",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "TradingView — Track All Markets",
+            "type": "url",
+            "url": "https://www.tradingview.com/"
+         }, {
+            "date_added": "13434284713290267",
+            "date_last_used": "0",
+            "guid": "fefb7bc1-b3f8-4cda-8480-873b6f2cb109",
+            "id": "27",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Configure Sway Dual Monitors",
+            "type": "url",
+            "url": "https://chatgpt.com/c/6aae574a-0a38-83ee-9592-62b6d614ebc8"
+         }, {
+            "date_added": "13434286671620852",
+            "date_last_used": "0",
+            "guid": "eae81a41-6ebb-44b9-b2f1-77d9dc5edc16",
+            "id": "28",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://www.google.com/search?q=Vimium+C+add+to+bookmark&sourceid=chrome&ie=UTF-8"
+         }, {
+            "date_added": "13434286689425084",
+            "date_last_used": "0",
+            "guid": "1ae7745b-b140-4441-b659-b3ce1c62d869",
+            "id": "29",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "매일경제",
+            "type": "url",
+            "url": "https://www.mk.co.kr/"
+         }, {
+            "date_added": "13434286892219203",
+            "date_last_used": "0",
+            "guid": "2b9f07fd-0f1e-4a86-8e02-0a9d0cb0f5a2",
+            "id": "30",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "국내 주식 - 매일경제",
+            "type": "url",
+            "url": "https://www.mk.co.kr/news/stock/domestic-stocks"
+         }, {
+            "date_added": "13434289604524592",
+            "date_last_used": "0",
+            "guid": "5fb1ac1f-b103-4e30-ac1d-3c1c4ce3e0f3",
+            "id": "31",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "TEM - Tempus AI Inc Stock Price and Quote",
+            "type": "url",
+            "url": "https://finviz.com/stock?t=TEM&p=d"
+         }, {
+            "date_added": "13434289611775817",
+            "date_last_used": "0",
+            "guid": "ff5813b2-4f89-420c-b329-34913d8f7b01",
+            "id": "32",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Finviz - Stock Screener",
+            "type": "url",
+            "url": "https://finviz.com/"
+         } ],
+         "date_added": "13434122254164019",
+         "date_last_used": "0",
+         "date_modified": "13434289611775817",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "5",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13434122254164019",
+         "date_last_used": "0",
+         "date_modified": "13434206965392585",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "6",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13434122254164019",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "7",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CnAKUAiIgQISSiAAkgE2CjQKDmNocm9tZV9zeW5jX2JtEgU1MSFibRoSCWI43kz1WwYAEWI43kz1WwYAKZdT3kz1WwYA6gEMCL62wtUGEMDS7tsDEgAqGDUxUUQ4Uys0YWljUzAyTzFqamIvb1E9PUgDEuwBCA0S5wEKHE50eTVkd0M5VnNLQWdUZVZWalJmMjA0dG0wVT0SZlo6QURxdEFad1g2cGRTQURwUFBjWklOZW5mZTZLUWNWd0ZxdFNlZkNoMVRPc21RaDZWVTU4QTJtM0xrU0cvN2N6S1BMaDNhZzRHL2N0TG5PZU9ScHp6eW9wYVoxVVdhK1UrQVE9PRgAIAAoADDRz8Km+/T6Aji8hOSPwDBAvITkj8AwShxkOFZaL0xBMTIxUFVkem1DalZWdUlzM2IvOXM9Wh8iHftXZzlLZ0k3aldJZjY3d2J6aHlSeUUvWjNDRG89ZeAPrZcS7AEIFRLnAQoccGFtWEd0cjZVdVBjRVN1UVo5NzBCdExBQ3RRPRJmWjpBRHF0QVp3WDZwZFNBRHBQUGNaSU5lbmZlNktRZUhSQ3B0cTdiVEtSUG1hOWRPSDlIS2VMOGdUUmxYNkNtbkY2S09xQUFYQ2pLcDAzS2Q0OVQ5SjdIMUxaWXNGRjRrL0xSUT09GAAgAigCMJrpg5Wg/JYDOPiEsqOLNECv+7jnizRKHG1ZVWRnaEx2VGlDVWpJVFNOWno1dTdtVS9PND1aHyId/lpnem1LNm5tMzZlYktpalRxRWRMemdjMFJycz1lPGBoPhLsAQgWEucBChxBaERjdGJQaUhSM3g3cVJaNlVFSk9iNENmN289EmZaOkFEcXRBWndYNnBkU0FEcFBQY1pJTmVuZmU2S1EvYjVGSExmazJ0UzRlUk50VkZSVVhKY1FGMm4vL1U1MVNTTXAwWlBWYnA0enhxNUtkOHVuM1pxK3NtRWhFbGZUMGF3UTZRPT0YACACKAIw1aeBkY74lgM4uObMo4s0QMHmzKOLNEocZm5tS1JGTE9ld3h3SHlMNU1iUTBsb1BxdENjPVofIh3/YWxaenlJbkpvdEpCaXNEbmxvRDdDcmh1eEQ4PWXfUbKSEu0BCB4S6AEKHDYva1o2K1FDYktTZTROK2RXckJ0Wk5vVjNTMD0SZlo6QURxdEFad1g2cGRTQURwUFBjWklOZW5mZTZLUW53SUE5aE9LRGZSeVI5ZmRZTGxvNmtZbDFWN25qOXhtMzN0K3pjS3oxbEphcUcweDFFRk9rSzNTVEhseGlNKzRPM2s4UXc9PRgAIAQoBDDA3p3Bo/6WAzi7+b3JizRAttTRiIw0ShxDc2U4TDhpdFJBYnR3RnBCV3lxOFEyM2tyaWM9WiAiHv/vakFPdkgvNG9yeWtiUlFXZDc2WEdKbllmdiswPWUx+Eu5Eu0BCBwS6AEKHGNoWjVsVzJINmNVY09nUHhJUlhlVEJFRHFvWT0SZlo6QURxdEFad1g2cGRTQURwUFBjWklOZW5mZTZLUUxsWVM2dE9UOCtpL2JBWXNqM2ZoZDgySEVwUkVuQmpES1dDMWczQ3k4OG1WY093RzVlZWlWWlhqR1R6V202NkMwdndpenc9PRgAIAMoAzDV092mtfqWAziFvrDJizRA0e6wyYs0ShwxaWMrdmNlUVc4QUh6RmdlUlRid1FBUUpoZjA9WiAiHv+8ODBPUHl5dE5qLzNWMjhzYTJsUkxySGtvK1drPWVi6bJJEu0BCCAS6AEKHHBvK1AyMklhSkhxUjc2MWxwZmNFVysxekpWZz0SZlo6QURxdEFad1g2cGRTQURwUFBjWklOZW5mZTZLUTNBMm5PMmhjcDYxNXFCL1k0MDhWeGNBeVo0Y1pwWER0a1k2UVJoQU41UVlHZmtDTUdod2JkcFBVMk9OQ3M2cWhRc0x0TFE9PRgAIAIoAjCNst+dwPqWAzj/9+PKizRAg/jjyos0Shx2SUxIZzJtRG15U0ZDb0lqRkE0WkFtdS85SFU9WiAiHv/7bWpVRjluaDNpSFM3T2ZWV0FLN3gyd3M5cytnPWU6QNn2Eu0BCB0S6AEKHEJzZDZneEd3NmVEOTgwd0laajFTYVgwbytEST0SZlo6QURxdEFad1g2cGRTQURwUFBjWklOZW5mZTZLUWhSWTVObzJ3MjJpZlAxWG9SMjl1ZmJ6U1RkOFBqak5xVm8ySHYwV01IM0FmVWFERnAyeUpRRlVnL3JvUXJLcUpvd0RJOGc9PRgAIAIoAjCUw8zYtfqWAziRybHJizRApp+3yYs0Shw5dDI5dXY0OG12Nk1rMHIzdHZERVhHbVdUK1E9WiAiHv/eWi9FNnBqVHJFMGgwZW9KaWRoeDgydGYyT2xzPWUx+Eu5EsEBCAYSvAEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SZlo6QURxdEFaemg3U3J4S21leUdKOHhSRU8yTW9jNWtXUGdqMURVbURCam5tMmVZMzJJem5QVE1VN0VDaU0vR1JiUEduRm94M1F4SjBiRjdjMlJMM2RDeVN1c3VvTUZsWWlENVE9PRgAIAAoADCBgLac/MeOAzgAQABKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1lAAAAABLsAQgUEucBChxSRlVQMjJWakRUQ3VwckZQZEE5WXl4YlBCWFk9EmZaOkFEcXRBWndYNnBkU0FEcFBQY1pJTmVuZmU2S1FUUExYVHdINmlmT0c5Smo1TmRoaU5wUUdwdDdTS3VHckNma1BoRjM4SmdZMFY4V3MzdmM1NlFCNTNvRnlsYmtLUlBSeGNnPT0YACADKAMw75+Vtoz4lgM4kM2vo4s0QJ7lsKOLNEocSmdiakNjQjV0WE9YaklKQXUzT0g0dVJFaUJRPVofIh39UmdrYnZLNXFuYzIxYW1mbStkaTZkNTU3TEZJPWWGpdjIEsEBCAcSvAEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFaeFBlblgwalRVWkloRmh5dFhpNmE4VExJTkFRUGw5Nmxzb3lMelNtS3A5cjlhRVROTXQ1Y3RuOFhaRDUyTDd5L0g0Mk9BZllNYk1sdmhNVTY2VXZmV0tXRDMxbnc9PRgAIAAoADCBgLac/MeOAzgAQABKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1lAAAAABLtAQgfEugBChxrSGJoKzd6ZWliUUVHa3dpS1hEQjZTR0N6bG89EmZaOkFEcXRBWndYNnBkU0FEcFBQY1pJTmVuZmU2S1E4YUw0ZXRVa2ZGNVRGSFp6aEdFRDE0b1poVlA1VExuVWg4WFJNdGtkN2ZraVlQVFRvUlBGbE1temlENGRCMmNXV2FhV0J3PT0YACACKAIwhPenmsD6lgM4rL/jyos0QLG/48qLNEocVkgzaUhpZFdVUyt1VHhkakNPRzhTL0w0TnlzPVogIh7/93NJM2o4RWMrVXNYZTZPK3Y4cmZqZElSUzFHWT1lOkDZ9hLsAQgbEucBChxTSnQ1SGtqZ1pXOXkrMjJqM3NJeW1taDE4Qmc9EmZaOkFEcXRBWndYNnBkU0FEcFBQY1pJTmVuZmU2S1FleWp4Z0k4ZFFPNkZWR1JVWDEvS1NINzlzdEFCamZ6UnBKNHJUbjBZY0pYdkJRN0tWZHZVRzA2Wmoyak1iRUd2L25MQ3ZBPT0YACACKAIw+euF/q36lgM4yvq4yIs0QND6uMiLNEocYmhrS1NNUkN3ZC9FUEY1dlJqNWtycEpZSkVnPVofIh3/eFJwc0dqU1FxZHhoRzFrc3NvdCtDMFdrUC84PWWGpdjIEqkBCAUSpAEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0STlo6QURxdEFaeGtmcENzU3N4VzVRZHJySXR3V0E3OXFBdUhETUk2L3RtcGpoOGJDL1lTenpFRE9BT3M1UUVmODZMRnFWN2lOaXUzV2g0VBgAIAAoADCBgLac/MeOAzgAQABKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1lAAAAADABOAA=",
+   "version": 1
+}

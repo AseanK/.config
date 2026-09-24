@@ -1,0 +1,24 @@
+2026/09/23-22:18:17.266 5 Reusing MANIFEST /home/krean/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/23-22:18:17.269 5 Recovering log #142
+2026/09/23-22:18:17.269 5 Reusing old log /home/krean/.config/google-chrome/Default/Local Storage/leveldb/000142.log 
+2026/09/23-22:28:48.997 9 Level-0 table #146: started
+2026/09/23-22:28:49.001 9 Level-0 table #146: 44843 bytes OK
+2026/09/23-22:28:49.004 9 Delete type=0 #142
+2026/09/23-22:31:13.597 9 Level-0 table #148: started
+2026/09/23-22:31:13.602 9 Level-0 table #148: 28328 bytes OK
+2026/09/23-22:31:13.604 9 Delete type=0 #145
+2026/09/23-23:33:42.126 9 Level-0 table #150: started
+2026/09/23-23:33:42.130 9 Level-0 table #150: 32660 bytes OK
+2026/09/23-23:33:42.132 9 Delete type=0 #147
+2026/09/23-23:33:42.133 9 Compacting 4@0 + 1@1 files
+2026/09/23-23:33:42.144 9 Generated table #151@0: 3250 keys, 422202 bytes
+2026/09/23-23:33:42.144 9 Compacted 4@0 + 1@1 files => 422202 bytes
+2026/09/23-23:33:42.145 9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/23-23:33:42.146 9 Delete type=2 #140
+2026/09/23-23:33:42.146 9 Delete type=2 #148
+2026/09/23-23:33:42.147 9 Delete type=2 #146
+2026/09/23-23:33:42.147 9 Delete type=2 #150
+2026/09/23-23:33:42.147 9 Delete type=2 #143
+2026/09/24-00:55:13.394 9 Level-0 table #153: started
+2026/09/24-00:55:13.397 9 Level-0 table #153: 12867 bytes OK
+2026/09/24-00:55:13.399 9 Delete type=0 #149
